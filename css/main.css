@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.icon{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border: 1px solid;
+    align-items: center;
+}
+button{
+    color: white;
+    width: 10%;
+    padding: 15px;
+    border: none;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(181, 114, 114);
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(134, 57, 57);
+}
+.display{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}
+.randomImage{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid;
+}
